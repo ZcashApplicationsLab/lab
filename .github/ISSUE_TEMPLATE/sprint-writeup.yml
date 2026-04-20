@@ -1,0 +1,124 @@
+name: Sprint Writeup
+description: Final writeup when a sprint ships (or is paused / abandoned)
+title: "[writeup] "
+labels: ["writeup", "review-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Filed when a sprint ends. Use the [narrative template](../blob/main/docs/SPRINT_WRITEUP_TEMPLATE.md) for the long-form version; this issue is the summary and handoff.
+
+  - type: input
+    id: sprint_id
+    attributes:
+      label: Sprint ID
+      placeholder: "ZAL-XX"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Shipped
+        - Paused
+        - Abandoned
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: 3–5 sentences — what you built, what it proves, who should care
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Project repo
+      placeholder: "ZcashApplicationsLab/<project>"
+    validations:
+      required: true
+
+  - type: input
+    id: release
+    attributes:
+      label: Release or tag
+      placeholder: "v0.1.0"
+
+  - type: input
+    id: demo
+    attributes:
+      label: Demo link
+      description: Video, hosted URL, or instructions to run locally
+    validations:
+      required: true
+
+  - type: textarea
+    id: design
+    attributes:
+      label: Design
+      description: Protocol sketch, circuits, trust assumptions, threat model
+    validations:
+      required: true
+
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Tradeoffs
+      description: Top decisions and what you gave up for each
+    validations:
+      required: true
+
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked
+    validations:
+      required: true
+
+  - type: textarea
+    id: did_not_work
+    attributes:
+      label: What did not work
+      description: Dead ends, lost time, honest retrospective
+    validations:
+      required: true
+
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: Open questions
+
+  - type: textarea
+    id: handoff
+    attributes:
+      label: Handoff
+      description: Where this goes next, with links and named contacts where available
+    validations:
+      required: true
+
+  - type: input
+    id: reviewers
+    attributes:
+      label: Reviewers
+      description: GitHub handles of reviewers who signed off
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: "Apache-2.0"
+      value: "Apache-2.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
