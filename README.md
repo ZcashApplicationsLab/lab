@@ -18,7 +18,7 @@
   <a href="GOVERNANCE.md">Governance</a>
 </p>
 
-> **Status: early community experiment.** This is an unfunded, independent effort by a small group of builders. It is **not affiliated with, endorsed by, or operated on behalf of** the Zcash Foundation (ZF), Zcash Community Grants (ZCG), or Electric Coin Co. (ECC). There is no budget and no formal partnership. We are sharing this publicly to gather feedback and see if the format is useful. If you think it is, or think it is not, open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions).
+> **Status: early community experiment.** This is an unfunded, independent effort by a small group of builders. It is **not affiliated with, endorsed by, or operated on behalf of** the Zcash Foundation (ZF), Zcash Community Grants (ZCG), Shielded Labs, or ZOLD. There is no budget and no formal partnership. We are sharing this publicly to gather feedback and see if the format is useful. If you think it is, or think it is not, open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions).
 
 ---
 
@@ -91,6 +91,7 @@ All work in this org is Apache License 2.0 unless a sprint explicitly declares o
 
 Links to ecosystem organizations for orientation only. **No affiliation or endorsement is implied.**
 
+- [Zcash Foundation (ZF)](https://zfnd.org/)
 - [Zcash Community Grants (ZCG)](https://zcashcommunitygrants.org/)
-- [Zcash Foundation](https://zfnd.org/)
-- [Electric Coin Co.](https://electriccoin.co/)
+- Shielded Labs
+- ZOLD

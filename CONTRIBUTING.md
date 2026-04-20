@@ -1,6 +1,6 @@
 # Contributing to Zcash Applications Lab
 
-> **Heads up:** ZAL is an early, unfunded community experiment. It is not affiliated with ZF, ZCG, or ECC, and nothing here is a commitment to pay anyone for their time. Contributions are volunteer and open-source. If that is fine by you, read on.
+> **Heads up:** ZAL is an early, unfunded community experiment. It is not affiliated with ZF, ZCG, Shielded Labs, or ZOLD, and nothing here is a commitment to pay anyone for their time. Contributions are volunteer and open-source. If that is fine by you, read on.
 
 Thanks for your interest. The lab runs as a continuous, open-source hackathon, and there are a few ways to plug in.
 

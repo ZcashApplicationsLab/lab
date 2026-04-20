@@ -1,6 +1,6 @@
 # Governance
 
-> **Note on status.** ZAL is a volunteer-run community experiment. It is **not affiliated with or endorsed by** ZF, ZCG, or ECC. There is no budget, no treasury, no legal entity, and no formal membership. This document describes an intended working model for a small volunteer group, not an existing organization with authority. It will change as the experiment runs or be deleted if the experiment ends.
+> **Note on status.** ZAL is a volunteer-run community experiment. It is **not affiliated with or endorsed by** ZF, ZCG, Shielded Labs, or ZOLD. There is no budget, no treasury, no legal entity, and no formal membership. This document describes an intended working model for a small volunteer group, not an existing organization with authority. It will change as the experiment runs or be deleted if the experiment ends.
 
 ## Mission
 
