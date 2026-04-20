@@ -68,7 +68,9 @@ We aim for two to three sprints in parallel once the format is validated. For no
 
 ## Reference projects
 
-- **ZAL-00: ZK ID + ZK Credit.** NFC passport proofs and private credit history on Zcash. Being developed independently by the initial maintainer group. Will be linked here once published under this org.
+- **ZAL-00: ZK ID + ZK Credit.** NFC passport proofs and private credit history on Zcash. Being developed independently by the initial maintainer group.
+  - Site: [zkglobalcredit.tech](https://zkglobalcredit.tech/)
+  - Repo: [Michae2xl/zk-credit-global-zcash](https://github.com/Michae2xl/zk-credit-global-zcash)
 
 ## Get involved
 
