@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Filed when a sprint ends. Use the [narrative template](../blob/main/docs/SPRINT_WRITEUP_TEMPLATE.md) for the long-form version; this issue is the summary and handoff.
+        Filed when a sprint ends. Use the [narrative template](../blob/main/docs/SPRINT_WRITEUP_TEMPLATE.md) for the long-form version; this issue is the summary and retrospective.
 
   - type: input
     id: sprint_id
@@ -94,10 +94,10 @@ body:
       label: Open questions
 
   - type: textarea
-    id: handoff
+    id: next_step
     attributes:
-      label: Handoff
-      description: Where this goes next, with links and named contacts where available
+      label: Next step (your plan)
+      description: What will you do with this artifact now? The lab does not route projects anywhere — this is your plan.
     validations:
       required: true
 

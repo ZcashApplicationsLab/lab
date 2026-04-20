@@ -18,15 +18,17 @@
   <a href="GOVERNANCE.md">Governance</a>
 </p>
 
+> **Status — early community experiment.** This is an unfunded, independent effort by a small group of builders. It is **not affiliated with, endorsed by, or operated on behalf of** the Zcash Foundation (ZF), Zcash Community Grants (ZCG), or Electric Coin Co. (ECC). There is no budget and no formal partnership. We are sharing this publicly to gather feedback and see if the format is useful. If you think it is — or think it is not — open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions).
+
 ---
 
 ## Why this exists
 
-Zcash needs more working applications **beyond private payments**, and ZCG needs less idea noise.
+Zcash has strong privacy primitives but a thin layer of working applications **beyond private payments**. There are many ideas and few shipped prototypes. Funding bodies like ZCG see a lot of proposals and have to evaluate them largely on intent.
 
-ZAL is a triage and incubation layer: ideas in, open-source code out. We take promising application concepts, run them as time-boxed sprints, ship working prototypes with full writeups, and hand mature ones off to ZCG or grants programs with a track record instead of a pitch deck.
+ZAL is an attempt at a lightweight incubation format: ideas in, open-source code out. Time-boxed sprints produce working prototypes with full writeups, so a proposer can point at a track record instead of a pitch deck if they later apply for grants anywhere.
 
-We are not a grants body, not a research lab, not a product studio. We are a **builder-first sandbox** for Zcash application space.
+We are not a grants body, not a research lab, not a product studio. We are a **builder-first sandbox** for the Zcash application space — and, for now, a proposal looking for feedback.
 
 ## What we ship
 
@@ -36,7 +38,7 @@ Every sprint produces:
 - **Specification** — what it does, threat model, protocol sketch
 - **Writeup** — design choices, tradeoffs, open questions
 - **Demo** — CLI, web, or video walkthrough
-- **Handoff note** — next steps, grant-readiness signal, links to relevant ZCG/ZF/ECC venues
+- **Retrospective note** — next steps, open questions, where the author plans to take it next (if anywhere)
 
 See [SPRINT_WRITEUP_TEMPLATE](docs/SPRINT_WRITEUP_TEMPLATE.md) for the output format.
 
@@ -57,12 +59,12 @@ Backlog items under each vertical live in [BACKLOG.md](BACKLOG.md).
 ## How it works
 
 1. **Propose** — open a [Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml) issue. Scope is 2–4 weeks, one concrete deliverable.
-2. **Triage** — maintainers evaluate against the [RUBRIC](RUBRIC.md): relevance, feasibility, team, defensibility, handoff path.
-3. **Sprint** — if accepted, the team gets a repo under `ZcashApplicationsLab/<project>`, a project board, and a named reviewer. Weekly [Sprint Update](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-update.yml) posts.
-4. **Ship** — code, spec, writeup, demo, handoff. [Sprint Writeup](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-writeup.yml) closes the loop.
-5. **Hand off** — mature projects get pointed at ZCG, ZF Grants, Zcon, or independent funding with a track record already in public.
+2. **Triage** — the current maintainer group evaluates against the [RUBRIC](RUBRIC.md): relevance, feasibility, team, defensibility, next-step clarity.
+3. **Sprint** — if accepted, the team gets a repo under `ZcashApplicationsLab/<project>` and a named reviewer. Weekly [Sprint Update](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-update.yml) posts.
+4. **Ship** — code, spec, writeup, demo, retrospective. [Sprint Writeup](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-writeup.yml) closes the loop.
+5. **Keep going (or not)** — the author decides what to do next with the artifact: continue as an independent project, apply for grants elsewhere, or leave it as a reference implementation. The lab does not claim credit for downstream outcomes.
 
-Two to three sprints run in parallel. New sprints are triaged monthly.
+We aim for two to three sprints in parallel once the format is validated. For now, capacity depends entirely on who shows up.
 
 ## Reference projects
 
@@ -81,7 +83,9 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT
 
 All work in this org is **Apache License 2.0** unless a sprint explicitly declares otherwise in its repo.
 
-## Related
+## Ecosystem context
+
+Links to ecosystem organizations for orientation only. **No affiliation or endorsement is implied.**
 
 - [Zcash Community Grants (ZCG)](https://zcashcommunitygrants.org/)
 - [Zcash Foundation](https://zfnd.org/)

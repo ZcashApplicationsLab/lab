@@ -8,6 +8,8 @@ body:
       value: |
         Thanks for proposing a sprint. Read the [RUBRIC](../blob/main/RUBRIC.md) and the [narrative template](../blob/main/docs/SPRINT_PROPOSAL_TEMPLATE.md) before filling this out. Keep responses concrete — we prefer "ships a CLI that verifies X" over "explores the design space for Y".
 
+        **Heads up:** ZAL is an early, unfunded community experiment. Accepted proposals get a repo, a reviewer, and visibility — not money. If you are looking for funded work, this is not the right venue.
+
   - type: input
     id: sprint_name
     attributes:
@@ -101,10 +103,10 @@ body:
       required: true
 
   - type: textarea
-    id: handoff
+    id: next_step
     attributes:
-      label: Handoff path
-      description: Where this goes after the sprint (ZCG, ZF Grants, independent funding, archive)
+      label: Next-step plan
+      description: What do *you* plan to do with the artifact after the sprint? (The lab does not route projects anywhere — this is about your plan, not ours.)
     validations:
       required: true
 
@@ -112,13 +114,13 @@ body:
     id: rubric_self_score
     attributes:
       label: Rubric self-score
-      description: Scores 1–5 for Relevance, Feasibility, Team, Defensibility, Handoff. See RUBRIC.md.
+      description: Scores 1–5 for Relevance, Feasibility, Team, Defensibility, Next-step clarity. See RUBRIC.md.
       placeholder: |
         Relevance: 5 — <one line justification>
         Feasibility: 4 — ...
         Team: 4 — ...
         Defensibility: 4 — ...
-        Handoff: 5 — ...
+        Next-step clarity: 5 — ...
         Total: 22
     validations:
       required: true

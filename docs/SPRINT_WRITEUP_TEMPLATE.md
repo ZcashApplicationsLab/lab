@@ -58,16 +58,16 @@ Dead ends, approaches that failed, time you lost. Useful for future sprint leads
 
 What a follow-up sprint or reviewer should investigate.
 
-## Handoff
+## Next step (your plan)
 
-Where does this go next?
+What will **you** do with this artifact now? The lab does not route projects anywhere — this is your plan.
 
-- [ ] Applied to ZCG (date, link)
-- [ ] Applied to ZF Grants (date, link)
-- [ ] Seeking reviewers before handoff
+- [ ] Keep maintaining it independently
+- [ ] Applied (or will apply) for grants elsewhere (date, link, on my own initiative)
+- [ ] Seeking reviewers / collaborators before deciding
 - [ ] Reference implementation only; no follow-on
 
-Named contacts (if any):
+Notes:
 
 ## Reviewers
 
@@ -79,4 +79,4 @@ Default: Apache 2.0. Declare otherwise here if so.
 
 ## Acknowledgements
 
-Mentors, reviewers, prior art authors, funders.
+Reviewers, prior art authors, anyone who helped. If external funding was involved, disclose it here.

@@ -1,8 +1,10 @@
 # Governance
 
+> **Note on status.** ZAL is a volunteer-run community experiment. It is **not affiliated with or endorsed by** ZF, ZCG, or ECC. There is no budget, no treasury, no legal entity, and no formal membership. This document describes an intended working model for a small volunteer group, not an existing organization with authority. It will change as the experiment runs or be deleted if the experiment ends.
+
 ## Mission
 
-Ship working open-source applications that expand Zcash beyond private payments, and reduce idea-stage noise for ZCG and other funding bodies by providing a track record instead of a pitch deck.
+Help surface and ship working open-source applications that expand what people can build on Zcash beyond private payments. The lab produces prototypes with writeups so that builders — and anyone evaluating their work — can look at code instead of only pitch decks.
 
 ## Structure
 
@@ -15,7 +17,7 @@ The core group that owns triage, merges, and repo-level decisions. Maintainers a
 - Triage sprint proposals against [RUBRIC.md](RUBRIC.md)
 - Assign reviewers to active sprints
 - Merge PRs to this repo (docs, templates, backlog)
-- Represent the lab to ZCG, ZF, ECC, and external partners
+- Act as the public point of contact for the lab (as a community group, not as a representative of any external organization)
 - Moderate community spaces per [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
 **Criteria**
@@ -67,7 +69,9 @@ Maintainers do not vote on sprint proposals where they are a proposer, co-propos
 
 ## Funding
 
-The lab itself does not disburse funds. Sprints may be self-funded, unfunded, or seek external support (ZCG, ZF Grants, independent sponsors). If a sprint receives external funding, that is disclosed in the proposal and the final writeup.
+The lab has no treasury, no budget, no fundraising, and does not disburse funds. Nothing in this repo constitutes a funding commitment by anyone.
+
+Individual sprints are run by their authors at their own cost. If a sprint author secures funding elsewhere — their own savings, an employer, a sponsor, a grant — that is entirely between them and the funder. Any such arrangement must be disclosed in the sprint proposal and writeup for transparency, but it is not brokered, filtered, or endorsed by the lab.
 
 ## Org-level assets
 
@@ -77,7 +81,7 @@ The lab itself does not disburse funds. Sprints may be self-funded, unfunded, or
 
 ## Changing course
 
-If the lab's approach stops working — sprints not shipping, proposals not arriving, handoffs not landing — maintainers can vote to pause intake, restructure, or wind down. A wind-down decision requires unanimous maintainer agreement and a 30-day public notice period.
+If the lab's approach stops working — sprints not shipping, proposals not arriving, no useful feedback — maintainers can vote to pause intake, restructure, or wind down. A wind-down decision requires unanimous maintainer agreement and a 30-day public notice period. Given this is an experiment, winding down is a legitimate outcome, not a failure.
 
 ## Questions
 

@@ -44,27 +44,28 @@ Which Zcash primitives, libraries, or external services does this use?
 
 Top three risks and how you will mitigate each.
 
-## Handoff path
+## Next-step plan
 
-After the sprint, where does this go?
+What will **you** do with this artifact after the sprint? The lab does not route projects anywhere; this is about your intended next step.
 
-- [ ] ZCG proposal (with named contact if available)
-- [ ] ZF Grants
-- [ ] Independent funding / self-sustained
-- [ ] Archive as reference implementation
+- [ ] Keep maintaining it as an independent open-source project
+- [ ] Apply for grants or funding elsewhere (on my own initiative)
+- [ ] Hand it off to an existing project or team
+- [ ] Archive as a reference implementation
+- [ ] Undecided — will figure out during the sprint
 
 ## Self-score against the rubric
 
 Fill in 1–5 for each dimension from [RUBRIC.md](../RUBRIC.md):
 
-| Dimension | Score | Justification |
-|-----------|-------|---------------|
-| Relevance | | |
-| Feasibility | | |
-| Team | | |
-| Defensibility | | |
-| Handoff path | | |
-| **Total** | | |
+| Dimension         | Score | Justification |
+| ----------------- | ----- | ------------- |
+| Relevance         |       |               |
+| Feasibility       |       |               |
+| Team              |       |               |
+| Defensibility     |       |               |
+| Next-step clarity |       |               |
+| **Total**         |       |               |
 
 ## Prior art
 

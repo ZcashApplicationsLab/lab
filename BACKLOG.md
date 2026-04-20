@@ -8,7 +8,7 @@ Items marked `claimed` have an active sprint. Items marked `shipped` link to the
 
 ## 1. Verifiable Credentials & Identity
 
-- **ZAL-00 · ZK ID (NFC passport proofs on Zcash)** — `claimed` — anchor project, see [zk-credit-global-zcash](https://github.com/ZcashApplicationsLab/zk-credit-global-zcash)
+- **ZAL-00 · ZK ID (NFC passport proofs on Zcash)** — `claimed` — reference project being developed independently by the initial maintainer group. Link to come once the repo is published under this org.
 - **Verifiable diploma attestations** — port eIDAS-compatible credentials into a Zcash-backed disclosure flow
 - **Age / residency proofs with shielded memos** — selective disclosure without identifying the holder
 - **Reusable KYC receipts** — prove a KYC check passed at institution X without re-running it at Y

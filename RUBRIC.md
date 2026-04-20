@@ -1,8 +1,8 @@
 # Sprint Evaluation Rubric
 
-Every sprint proposal is scored against these five dimensions. Scores are 1–5 per dimension; a proposal with total ≥ 18 and no dimension below 3 is eligible for acceptance, subject to maintainer capacity.
+Every sprint proposal is scored against these five dimensions. Scores are 1–5 per dimension; a proposal with total ≥ 18 and no dimension below 3 is eligible for acceptance, subject to reviewer capacity.
 
-This rubric is a public commitment, not a negotiation. If you disagree with a score, open a discussion — the rubric evolves with the lab.
+This rubric is a working draft — v0 of a community experiment. If you disagree with a dimension, weighting, or score, open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions) and we will adjust.
 
 ## 1. Relevance (weight: ×1)
 
@@ -52,17 +52,19 @@ Is this hard to clone, meaningful if it ships, and not already solved?
 | 2     | Marginal differentiation from existing tools         |
 | 1     | Duplicates an existing, maintained project           |
 
-## 5. Handoff path (weight: ×1)
+## 5. Next-step clarity (weight: ×1)
 
-After the sprint, where does this go?
+After the sprint, does the proposer know what they want to do with the artifact?
 
-| Score | Signal                                                                  |
-| ----- | ----------------------------------------------------------------------- |
-| 5     | Clear path to ZCG, ZF Grants, or independent funding with named contact |
-| 4     | Strong handoff candidate; path requires some shaping                    |
-| 3     | Useful open-source artifact even without follow-on funding              |
-| 2     | Handoff unclear; risk of orphaned code                                  |
-| 1     | No plan for what happens after the sprint                               |
+| Score | Signal                                                                                       |
+| ----- | -------------------------------------------------------------------------------------------- |
+| 5     | Clear plan — e.g. keep maintaining it, apply for grants elsewhere, pitch to a specific venue |
+| 4     | Reasonable plan; some shaping needed                                                         |
+| 3     | Useful open-source artifact even without a follow-on plan                                    |
+| 2     | Unclear; risk of orphaned code                                                               |
+| 1     | No plan                                                                                      |
+
+> Note: the lab does not route projects anywhere. Anything post-sprint is up to the author. This score is about whether the author has thought about it, not whether we endorse a specific path.
 
 ## Scoring example
 
