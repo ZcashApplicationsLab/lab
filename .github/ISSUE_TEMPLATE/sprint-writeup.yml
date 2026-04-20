@@ -31,7 +31,7 @@ body:
     id: summary
     attributes:
       label: Summary
-      description: 3–5 sentences — what you built, what it proves, who should care
+      description: "3–5 sentences: what you built, what it proves, who should care"
     validations:
       required: true
 
@@ -97,7 +97,7 @@ body:
     id: next_step
     attributes:
       label: Next step (your plan)
-      description: What will you do with this artifact now? The lab does not route projects anywhere — this is your plan.
+      description: "What will you do with this artifact now? The lab does not route projects anywhere; this is your plan."
     validations:
       required: true
 

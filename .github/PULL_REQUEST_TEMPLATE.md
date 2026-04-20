@@ -16,7 +16,7 @@ Closes #
 - [ ] Backlog addition or edit
 - [ ] Issue / PR template change
 - [ ] Governance change (requires two-maintainer approval)
-- [ ] Other — describe:
+- [ ] Other (describe):
 
 ## Checklist
 

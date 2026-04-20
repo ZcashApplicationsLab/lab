@@ -52,7 +52,7 @@ What will **you** do with this artifact after the sprint? The lab does not route
 - [ ] Apply for grants or funding elsewhere (on my own initiative)
 - [ ] Hand it off to an existing project or team
 - [ ] Archive as a reference implementation
-- [ ] Undecided — will figure out during the sprint
+- [ ] Undecided, will figure out during the sprint
 
 ## Self-score against the rubric
 

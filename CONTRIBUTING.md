@@ -2,7 +2,7 @@
 
 > **Heads up:** ZAL is an early, unfunded community experiment. It is not affiliated with ZF, ZCG, or ECC, and nothing here is a commitment to pay anyone for their time. Contributions are volunteer and open-source. If that is fine by you, read on.
 
-Thanks for your interest. The lab runs as a continuous, open-source hackathon — there are a few ways to plug in.
+Thanks for your interest. The lab runs as a continuous, open-source hackathon, and there are a few ways to plug in.
 
 ## Ways to contribute
 
@@ -14,17 +14,17 @@ Thanks for your interest. The lab runs as a continuous, open-source hackathon �
 | Mentor                                         | Same as above                                                                                                        |
 | Improve this repo's docs, rubric, or templates | Open a PR against `main`                                                                                             |
 | Flag a backlog idea                            | Open an issue tagged `backlog` or PR against [BACKLOG.md](BACKLOG.md)                                                |
-| Report a security issue                        | Email the maintainers listed in `SECURITY.md` (coming soon) — do not open a public issue                             |
+| Report a security issue                        | Email the maintainers listed in `SECURITY.md` (coming soon). Do not open a public issue.                             |
 
 ## Sprint proposals
 
 Before opening a proposal:
 
-1. Read the [RUBRIC](RUBRIC.md) and score yourself honestly
-2. Check [BACKLOG.md](BACKLOG.md) — if your idea is already there, say so in the proposal
-3. Skim recent proposals (open and closed) so you are not duplicating
+1. Read the [RUBRIC](RUBRIC.md) and score yourself honestly.
+2. Check [BACKLOG.md](BACKLOG.md). If your idea is already there, say so in the proposal.
+3. Skim recent proposals (open and closed) so you are not duplicating.
 
-Use the [Sprint Proposal template](.github/ISSUE_TEMPLATE/sprint-proposal.yml). Keep it under 500 words. We prefer concrete over aspirational.
+Use the [Sprint Proposal template](.github/ISSUE_TEMPLATE/sprint-proposal.yml). Keep it under 500 words. Concrete beats aspirational.
 
 ## Working on an active sprint
 
@@ -40,10 +40,10 @@ Expectations for all sprint repos:
 
 For changes to this repo (lab-level docs, templates, rubric, backlog):
 
-1. Fork and branch off `main`
-2. Make your change
-3. Open a PR against `main` — fill in the PR template
-4. Two maintainer approvals required for merge
+1. Fork and branch off `main`.
+2. Make your change.
+3. Open a PR against `main` and fill in the PR template.
+4. Two maintainer approvals required for merge.
 
 ### Commit style
 
@@ -57,7 +57,7 @@ fix(rubric): typo in defensibility row
 
 ## Code of conduct
 
-All spaces — issues, PRs, discussions, sprint repos, events — are governed by [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Violations go to the maintainer group.
+All spaces (issues, PRs, discussions, sprint repos, events) are governed by [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Violations go to the maintainer group.
 
 ## License
 

@@ -4,7 +4,7 @@
 
 ## Mission
 
-Help surface and ship working open-source applications that expand what people can build on Zcash beyond private payments. The lab produces prototypes with writeups so that builders — and anyone evaluating their work — can look at code instead of only pitch decks.
+Help surface and ship working open-source applications that expand what people can build on Zcash beyond private payments. The lab produces prototypes with writeups so that builders, and anyone evaluating their work, can look at code instead of only pitch decks.
 
 ## Structure
 
@@ -53,15 +53,15 @@ Anyone opening a PR, issue, or discussion. No formal role required.
 
 ## Decision-making
 
-**Sprint acceptance** — simple majority of maintainers using [RUBRIC.md](RUBRIC.md). Ties go to the proposer (accept).
+**Sprint acceptance.** Simple majority of maintainers using [RUBRIC.md](RUBRIC.md). Ties go to the proposer (accept).
 
-**This repo's docs, rubric, and governance** — PR requires approval from two maintainers. Conflicts escalate to the full maintainer group, decided by simple majority.
+**This repo's docs, rubric, and governance.** PR requires approval from two maintainers. Conflicts escalate to the full maintainer group, decided by simple majority.
 
-**New maintainers** — existing maintainer nominates, simple majority confirms.
+**New maintainers.** Existing maintainer nominates, simple majority confirms.
 
-**Removing maintainers** — inactive for 6+ months triggers a review. Removal by simple majority of the remaining maintainers. Inactive maintainers can return without repeating the nomination process if within 12 months.
+**Removing maintainers.** Inactive for 6+ months triggers a review. Removal by simple majority of the remaining maintainers. Inactive maintainers can return without repeating the nomination process if within 12 months.
 
-**Changes to this document** — same as rubric changes: two-maintainer PR approval.
+**Changes to this document.** Same as rubric changes: two-maintainer PR approval.
 
 ## Conflict of interest
 
@@ -71,17 +71,17 @@ Maintainers do not vote on sprint proposals where they are a proposer, co-propos
 
 The lab has no treasury, no budget, no fundraising, and does not disburse funds. Nothing in this repo constitutes a funding commitment by anyone.
 
-Individual sprints are run by their authors at their own cost. If a sprint author secures funding elsewhere — their own savings, an employer, a sponsor, a grant — that is entirely between them and the funder. Any such arrangement must be disclosed in the sprint proposal and writeup for transparency, but it is not brokered, filtered, or endorsed by the lab.
+Individual sprints are run by their authors at their own cost. If a sprint author secures funding elsewhere (their own savings, an employer, a sponsor, a grant), that is entirely between them and the funder. Any such arrangement must be disclosed in the sprint proposal and writeup for transparency, but it is not brokered, filtered, or endorsed by the lab.
 
 ## Org-level assets
 
-- `ZcashApplicationsLab` GitHub org — admin rights held by the initial maintainer group
-- Domain and social handles (when they exist) — same admin group
+- `ZcashApplicationsLab` GitHub org, admin rights held by the initial maintainer group
+- Domain and social handles (when they exist), same admin group
 - No treasury, no token, no DAO as of now
 
 ## Changing course
 
-If the lab's approach stops working — sprints not shipping, proposals not arriving, no useful feedback — maintainers can vote to pause intake, restructure, or wind down. A wind-down decision requires unanimous maintainer agreement and a 30-day public notice period. Given this is an experiment, winding down is a legitimate outcome, not a failure.
+If the lab's approach stops working (sprints not shipping, proposals not arriving, no useful feedback), maintainers can vote to pause intake, restructure, or wind down. A wind-down decision requires unanimous maintainer agreement and a 30-day public notice period. Given this is an experiment, winding down is a legitimate outcome, not a failure.
 
 ## Questions
 

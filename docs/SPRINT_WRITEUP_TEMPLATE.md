@@ -60,7 +60,7 @@ What a follow-up sprint or reviewer should investigate.
 
 ## Next step (your plan)
 
-What will **you** do with this artifact now? The lab does not route projects anywhere — this is your plan.
+What will **you** do with this artifact now? The lab does not route projects anywhere. This is your plan.
 
 - [ ] Keep maintaining it independently
 - [ ] Applied (or will apply) for grants elsewhere (date, link, on my own initiative)

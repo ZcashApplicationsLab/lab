@@ -6,9 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for proposing a sprint. Read the [RUBRIC](../blob/main/RUBRIC.md) and the [narrative template](../blob/main/docs/SPRINT_PROPOSAL_TEMPLATE.md) before filling this out. Keep responses concrete — we prefer "ships a CLI that verifies X" over "explores the design space for Y".
+        Thanks for proposing a sprint. Read the [RUBRIC](../blob/main/RUBRIC.md) and the [narrative template](../blob/main/docs/SPRINT_PROPOSAL_TEMPLATE.md) before filling this out. Keep responses concrete: "ships a CLI that verifies X" beats "explores the design space for Y".
 
-        **Heads up:** ZAL is an early, unfunded community experiment. Accepted proposals get a repo, a reviewer, and visibility — not money. If you are looking for funded work, this is not the right venue.
+        **Heads up:** ZAL is an early, unfunded community experiment. Accepted proposals get a repo, a reviewer, and visibility, not money. If you are looking for funded work, this is not the right venue.
 
   - type: input
     id: sprint_name
@@ -39,7 +39,7 @@ body:
     id: problem
     attributes:
       label: Problem
-      description: 2–3 sentences — the gap this closes and who feels it
+      description: "2–3 sentences: the gap this closes and who feels it"
     validations:
       required: true
 
@@ -106,7 +106,7 @@ body:
     id: next_step
     attributes:
       label: Next-step plan
-      description: What do *you* plan to do with the artifact after the sprint? (The lab does not route projects anywhere — this is about your plan, not ours.)
+      description: "What do *you* plan to do with the artifact after the sprint? The lab does not route projects anywhere; this is about your plan, not ours."
     validations:
       required: true
 
@@ -116,11 +116,11 @@ body:
       label: Rubric self-score
       description: Scores 1–5 for Relevance, Feasibility, Team, Defensibility, Next-step clarity. See RUBRIC.md.
       placeholder: |
-        Relevance: 5 — <one line justification>
-        Feasibility: 4 — ...
-        Team: 4 — ...
-        Defensibility: 4 — ...
-        Next-step clarity: 5 — ...
+        Relevance: 5. <one line justification>
+        Feasibility: 4. ...
+        Team: 4. ...
+        Defensibility: 4. ...
+        Next-step clarity: 5. ...
         Total: 22
     validations:
       required: true
