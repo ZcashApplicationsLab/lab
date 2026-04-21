@@ -1,32 +1,59 @@
 name: Sprint Proposal
-description: Ready to lead a 2 to 4 week sprint? Use this. If your idea is still rough, use the Idea template instead.
+description: Ready to lead a 2 to 4 week sprint? Drop the pitch. Not ready? Use the Idea template instead.
 title: "[proposal] "
 labels: ["proposal", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        This form is for proposals you are ready to lead. You have a scope, a team (even if it is just you), and a rough timeline.
+        Three required fields. Everything else is optional, add what helps, skip what does not.
 
-        If your idea is still fuzzy, stop and open an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml) instead. A maintainer will help you shape it.
+        If your scope is still fuzzy, use [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml) instead.
 
-        **Heads up:** ZAL is an early, unfunded community experiment. Accepted proposals get a repo, a reviewer, and visibility. They do not get money.
+        ZAL is volunteer and unfunded. Accepted proposals get a repo, a reviewer, and visibility.
 
-  - type: input
-    id: sprint_name
+  - type: textarea
+    id: pitch
     attributes:
-      label: Sprint name
-      description: 5 to 10 words. Concrete beats catchy.
-      placeholder: "Shielded credit score oracle"
+      label: Pitch
+      description: What will you build, and why does it matter? A few sentences is enough.
+      placeholder: "A CLI that turns an NFC passport read into a Halo2 proof of age. Today, proving age on-chain means leaking the full document. This explores a primitive that could plug into DeFi access flows."
     validations:
       required: true
+
+  - type: textarea
+    id: team
+    attributes:
+      label: Who is leading it?
+      description: GitHub handles. Solo is fine.
+      placeholder: "@alice (lead), @bob"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sprint_length
+    attributes:
+      label: How long?
+      options:
+        - 2 weeks
+        - 3 weeks
+        - 4 weeks
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Everything below is optional. Fill in what is useful, leave the rest blank.
 
   - type: dropdown
     id: vertical
     attributes:
       label: Vertical
-      description: Pick the closest fit. Cross-cutting is fine.
+      description: Pick one if it is obvious. A maintainer can tag it later otherwise.
       options:
+        - ""
         - Verifiable Credentials & Identity
         - Private Credit & Underwriting
         - Regulated Privacy & Selective Disclosure
@@ -36,102 +63,36 @@ body:
         - ZK Audits & Privacy-Preserving Analytics
         - Cross-cutting / tooling
     validations:
-      required: true
-
-  - type: textarea
-    id: what
-    attributes:
-      label: What will you ship?
-      description: One concrete artifact a user could run, read, or watch at the end of the sprint. A CLI, a demo site, a spec, a video walkthrough.
-      placeholder: "A CLI that takes a passport NFC dump and outputs a Halo2 proof that the holder is over 18, without revealing the document."
-    validations:
-      required: true
-
-  - type: textarea
-    id: why
-    attributes:
-      label: Why is this worth building?
-      description: Who feels the gap? What changes if this exists?
-      placeholder: "Today, proving age on-chain requires handing over the full ID. This sprint explores a primitive that could plug into DeFi access flows."
-    validations:
-      required: true
-
-  - type: textarea
-    id: team
-    attributes:
-      label: Who is on it?
-      description: GitHub handles and rough hours per week. Solo is fine.
-      placeholder: |
-        @alice (lead) - 15 h/week
-        @bob - 5 h/week
-    validations:
-      required: true
-
-  - type: dropdown
-    id: sprint_length
-    attributes:
-      label: Sprint length
-      options:
-        - 2 weeks
-        - 3 weeks
-        - 4 weeks
-    validations:
-      required: true
+      required: false
 
   - type: input
     id: start_date
     attributes:
-      label: Planned start date
-      placeholder: YYYY-MM-DD
+      label: Planned start
+      placeholder: YYYY-MM-DD, or "whenever the repo is ready"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: next_step
     attributes:
       label: What happens after the sprint?
-      description: Your plan for the artifact once the sprint closes. "Keep building it myself", "apply for a grant", "leave as reference code" are all valid.
-    validations:
-      required: true
-
-  - type: textarea
-    id: anti_scope
-    attributes:
-      label: What will you NOT try to do?
-      description: Optional but helpful. Anything you are explicitly cutting from this sprint to keep it shippable.
+      description: Keep building it, apply for a grant, leave as reference. All fine.
     validations:
       required: false
 
   - type: textarea
-    id: primitives
+    id: extras
     attributes:
-      label: Zcash primitives or libraries you plan to use
-      description: Optional. Rough is fine. "Orchard notes + Halo2 + zcash_primitives" is enough.
-    validations:
-      required: false
-
-  - type: textarea
-    id: concerns
-    attributes:
-      label: Anything you are worried about?
-      description: Optional. Technical unknowns, missing skills, external dependencies. Honest beats polished.
-    validations:
-      required: false
-
-  - type: textarea
-    id: prior_art
-    attributes:
-      label: Prior art
-      description: Optional. Related papers, implementations, or projects you are building on.
+      label: Anything else worth knowing?
+      description: Primitives you will use, things you are cutting from scope, concerns, prior art. Drop it all here if you want, or skip.
     validations:
       required: false
 
   - type: checkboxes
     id: agreements
     attributes:
-      label: Agreements
+      label: Agreement
       options:
-        - label: Code produced will be Apache 2.0 licensed (or I will declare otherwise in the body)
-          required: true
-        - label: I agree to the Code of Conduct
+        - label: I agree to the Code of Conduct and will ship under Apache 2.0 unless I flag otherwise
           required: true
