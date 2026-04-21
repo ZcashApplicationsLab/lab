@@ -13,79 +13,51 @@
   ·
   <a href="https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml">Drop an idea</a>
   ·
-  <a href="RUBRIC.md">Evaluation rubric</a>
+  <a href="RUBRIC.md">Rubric</a>
   ·
   <a href="GOVERNANCE.md">Governance</a>
 </p>
 
-> **Status: early community experiment.** This is an unfunded, independent effort by a small group of builders. It is **not affiliated with, endorsed by, or operated on behalf of** the Zcash Foundation (ZF), Zcash Community Grants (ZCG), Shielded Labs, or ZOLD. There is no budget and no formal partnership. We are sharing this publicly to gather feedback and see if the format is useful. If you think it is, or think it is not, open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions).
+> **Early community experiment.** Volunteer, unfunded, independent. Not affiliated with ZF, ZCG, Shielded Labs, or ZOLD. Published to gather feedback, [open a Discussion](https://github.com/ZcashApplicationsLab/lab/discussions) if you have one.
 
 ---
 
-## Why this exists
+## What this is
 
-Zcash has strong privacy primitives but a thin layer of working applications beyond private payments. There are many ideas and few shipped prototypes. Funding bodies like ZCG see a lot of proposals and have to evaluate them largely on intent.
+Zcash has strong privacy primitives and a thin layer of working applications beyond private payments. ZAL runs 2 to 4 week open-source sprints that ship prototypes, writeups, and demos under Apache 2.0. Ideas in, code out.
 
-ZAL is an attempt at a lightweight incubation format: ideas in, open-source code out. Time-boxed sprints produce working prototypes with full writeups, so a proposer can point at a track record instead of a pitch deck if they later apply for grants anywhere.
+## Verticals
 
-We are not a grants body, not a research lab, not a product studio. We are a builder-first sandbox for the Zcash application space, and for now a proposal looking for feedback.
+1. **Verifiable Credentials & Identity.** NFC passports, diplomas, KYC proofs with selective disclosure.
+2. **Private Credit & Underwriting.** Credit history, scoring, lending with shielded counterparties.
+3. **Regulated Privacy & Selective Disclosure.** View keys, auditor keys, compliance-ready privacy.
+4. **Institutional Settlement & Proof of Reserve.** Treasury ops, PoR, private settlement.
+5. **RWA Attestations.** Tokenized real-world asset attestations with privacy defaults.
+6. **Private Voting & DAO Governance.** Shielded voting, delegation, quadratic funding.
+7. **ZK Audits & Privacy-Preserving Analytics.** Audit trails and confidential reporting.
 
-## What we ship
-
-Every sprint produces:
-
-- **Working code**: runnable prototype, Apache 2.0 licensed, in a dedicated repo under this org.
-- **Specification**: what it does, threat model, protocol sketch.
-- **Writeup**: design choices, tradeoffs, open questions.
-- **Demo**: CLI, web, or video walkthrough.
-- **Retrospective note**: next steps, open questions, where the author plans to take it next (if anywhere).
-
-The [Sprint Writeup form](.github/ISSUE_TEMPLATE/sprint-writeup.yml) captures all of this.
-
-## The seven verticals
-
-| #   | Vertical                                    | Problem                                                                                                   |
-| --- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| 1   | Verifiable Credentials & Identity           | NFC passports, diplomas, KYC proofs on Zcash, with selective disclosure that does not reveal the document |
-| 2   | Private Credit & Underwriting               | Credit history, scoring, and lending with shielded counterparties                                         |
-| 3   | Regulated Privacy & Selective Disclosure    | View keys, auditor keys, compliance-ready privacy for regulated flows                                     |
-| 4   | Institutional Settlement & Proof of Reserve | Treasury ops, PoR, private settlement rails                                                               |
-| 5   | RWA Attestations                            | Tokenized real-world asset attestations with privacy defaults                                             |
-| 6   | Private Voting & DAO Governance             | Shielded voting, delegation, quadratic funding                                                            |
-| 7   | ZK Audits & Privacy-Preserving Analytics    | Audit trails, compliance reports, and analytics that preserve confidentiality                             |
-
-Projects land in these buckets as they come in. The lab does not maintain a pre-baked wish list: what gets built is whatever the community proposes. Browse [open ideas and proposals](https://github.com/ZcashApplicationsLab/lab/issues) or [drop your own](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml).
+What gets built is whatever the community proposes. Browse [open issues](https://github.com/ZcashApplicationsLab/lab/issues) or add your own.
 
 ## How it works
 
-1. **Propose.** Open a [Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml) issue. Scope is 2 to 4 weeks, one concrete deliverable. If your idea is still rough, drop it as an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml) instead and a maintainer will help shape it.
-2. **Triage.** A maintainer reads it and answers three questions on the thread: does this make sense for Zcash beyond payments, can it ship in 2 to 4 weeks, is there a plan for after. See [RUBRIC.md](RUBRIC.md).
-3. **Sprint.** If accepted, the team gets a repo under `ZcashApplicationsLab/<project>` and a named reviewer. Post a [Sprint Update](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-update.yml) whenever something material changes, no weekly quota.
-4. **Ship.** Code, spec, writeup, demo, retrospective. [Sprint Writeup](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-writeup.yml) closes the loop.
-5. **Keep going (or not).** The author decides what to do next with the artifact: continue as an independent project, apply for grants elsewhere, or leave it as a reference implementation. The lab does not claim credit for downstream outcomes.
-
-We aim for two to three sprints in parallel once the format is validated. For now, capacity depends entirely on who shows up.
+1. **[Drop an idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml)** if it is still rough, or **[propose a sprint](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml)** if you are ready to lead one.
+2. A maintainer reads it, asks clarifying questions, and decides using the [three questions in the rubric](RUBRIC.md).
+3. Accepted sprints get their own repo, a reviewer, and 2 to 4 weeks to ship code + writeup + demo.
+4. What the author does with the artifact after that is up to them.
 
 ## Get involved
 
-Help is welcome from anyone. ZAL is a volunteer effort, so there is no gatekeeping. You can contribute by proposing a sprint, running a sprint, reviewing code or writeups, mentoring active sprints, improving the docs, flagging prior art, or just giving honest feedback in a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions). Show up for one PR or stay for ten sprints, either is fine.
+No gatekeeping. Propose or lead a sprint, review code, mentor, or just leave feedback in a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions). One PR or ten sprints, both fine.
 
-Rough role buckets:
-
-- **Builders**: browse [open ideas](https://github.com/ZcashApplicationsLab/lab/issues?q=is%3Aissue+is%3Aopen+label%3Aidea), propose your own sprint, or drop a rough idea.
-- **Reviewers**: domain reviewers in cryptography, compliance, credit, identity, and governance are especially welcome.
-- **Mentors**: time-boxed mentoring slots for active sprints.
-- **Observers**: watch the repo, comment on writeups, no commitment needed.
-
-Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before opening your first issue or PR.
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## License
 
-All work in this org is Apache License 2.0 unless a sprint explicitly declares otherwise in its repo.
+Apache 2.0 unless a sprint declares otherwise.
 
 ## Ecosystem context
 
-Links to ecosystem organizations for orientation only. **No affiliation or endorsement is implied.**
+Links for orientation only. No affiliation or endorsement implied.
 
 - [Zcash Foundation (ZF)](https://zfnd.org/)
 - [Zcash Community Grants (ZCG)](https://zcashcommunitygrants.org/)
