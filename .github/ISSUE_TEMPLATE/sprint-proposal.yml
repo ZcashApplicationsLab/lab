@@ -1,20 +1,22 @@
 name: Sprint Proposal
-description: Propose a new sprint for the Zcash Applications Lab
+description: Ready to lead a 2 to 4 week sprint? Use this. If your idea is still rough, use the Idea template instead.
 title: "[proposal] "
 labels: ["proposal", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for proposing a sprint. Read the [RUBRIC](../blob/main/RUBRIC.md) and the [narrative template](../blob/main/docs/SPRINT_PROPOSAL_TEMPLATE.md) before filling this out. Keep responses concrete: "ships a CLI that verifies X" beats "explores the design space for Y".
+        This form is for proposals you are ready to lead. You have a scope, a team (even if it is just you), and a rough timeline.
 
-        **Heads up:** ZAL is an early, unfunded community experiment. Accepted proposals get a repo, a reviewer, and visibility, not money. If you are looking for funded work, this is not the right venue.
+        If your idea is still fuzzy, stop and open an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml) instead. A maintainer will help you shape it.
+
+        **Heads up:** ZAL is an early, unfunded community experiment. Accepted proposals get a repo, a reviewer, and visibility. They do not get money.
 
   - type: input
     id: sprint_name
     attributes:
       label: Sprint name
-      description: 5–10 words
+      description: 5 to 10 words. Concrete beats catchy.
       placeholder: "Shielded credit score oracle"
     validations:
       required: true
@@ -23,6 +25,7 @@ body:
     id: vertical
     attributes:
       label: Vertical
+      description: Pick the closest fit. Cross-cutting is fine.
       options:
         - Verifiable Credentials & Identity
         - Private Credit & Underwriting
@@ -36,34 +39,31 @@ body:
       required: true
 
   - type: textarea
-    id: problem
+    id: what
     attributes:
-      label: Problem
-      description: "2–3 sentences: the gap this closes and who feels it"
+      label: What will you ship?
+      description: One concrete artifact a user could run, read, or watch at the end of the sprint. A CLI, a demo site, a spec, a video walkthrough.
+      placeholder: "A CLI that takes a passport NFC dump and outputs a Halo2 proof that the holder is over 18, without revealing the document."
     validations:
       required: true
 
   - type: textarea
-    id: deliverable
+    id: why
     attributes:
-      label: Deliverable
-      description: One concrete artifact you will ship in 2–4 weeks
-    validations:
-      required: true
-
-  - type: textarea
-    id: out_of_scope
-    attributes:
-      label: Out of scope
-      description: At least three things you will not do in this sprint
+      label: Why is this worth building?
+      description: Who feels the gap? What changes if this exists?
+      placeholder: "Today, proving age on-chain requires handing over the full ID. This sprint explores a primitive that could plug into DeFi access flows."
     validations:
       required: true
 
   - type: textarea
     id: team
     attributes:
-      label: Team
-      description: "Lead + contributors. Include GitHub handles, short bio, hours/week commitment."
+      label: Who is on it?
+      description: GitHub handles and rough hours per week. Solo is fine.
+      placeholder: |
+        @alice (lead) - 15 h/week
+        @bob - 5 h/week
     validations:
       required: true
 
@@ -87,58 +87,51 @@ body:
       required: true
 
   - type: textarea
-    id: primitives
-    attributes:
-      label: Primitives and dependencies
-      description: Zcash primitives, libraries, or external services this uses
-    validations:
-      required: true
-
-  - type: textarea
-    id: risks
-    attributes:
-      label: Top risks
-      description: Top three risks and how you will mitigate each
-    validations:
-      required: true
-
-  - type: textarea
     id: next_step
     attributes:
-      label: Next-step plan
-      description: "What do *you* plan to do with the artifact after the sprint? The lab does not route projects anywhere; this is about your plan, not ours."
+      label: What happens after the sprint?
+      description: Your plan for the artifact once the sprint closes. "Keep building it myself", "apply for a grant", "leave as reference code" are all valid.
     validations:
       required: true
 
   - type: textarea
-    id: rubric_self_score
+    id: anti_scope
     attributes:
-      label: Rubric self-score
-      description: Scores 1–5 for Relevance, Feasibility, Team, Defensibility, Next-step clarity. See RUBRIC.md.
-      placeholder: |
-        Relevance: 5. <one line justification>
-        Feasibility: 4. ...
-        Team: 4. ...
-        Defensibility: 4. ...
-        Next-step clarity: 5. ...
-        Total: 22
+      label: What will you NOT try to do?
+      description: Optional but helpful. Anything you are explicitly cutting from this sprint to keep it shippable.
     validations:
-      required: true
+      required: false
+
+  - type: textarea
+    id: primitives
+    attributes:
+      label: Zcash primitives or libraries you plan to use
+      description: Optional. Rough is fine. "Orchard notes + Halo2 + zcash_primitives" is enough.
+    validations:
+      required: false
+
+  - type: textarea
+    id: concerns
+    attributes:
+      label: Anything you are worried about?
+      description: Optional. Technical unknowns, missing skills, external dependencies. Honest beats polished.
+    validations:
+      required: false
 
   - type: textarea
     id: prior_art
     attributes:
       label: Prior art
-      description: Related papers, implementations, and what you are building on vs replacing
+      description: Optional. Related papers, implementations, or projects you are building on.
+    validations:
+      required: false
 
   - type: checkboxes
     id: agreements
     attributes:
       label: Agreements
       options:
-        - label: I have read the RUBRIC and scored myself honestly
-          required: true
-        - label: Code produced will be Apache 2.0 licensed (or I will declare otherwise in the proposal body)
+        - label: Code produced will be Apache 2.0 licensed (or I will declare otherwise in the body)
           required: true
         - label: I agree to the Code of Conduct
           required: true
