@@ -66,12 +66,6 @@ Projects land in these buckets as they come in. The lab does not maintain a pre-
 
 We aim for two to three sprints in parallel once the format is validated. For now, capacity depends entirely on who shows up.
 
-## Reference projects
-
-- **ZAL-00: ZK ID + ZK Credit.** NFC passport proofs and private credit history on Zcash. Being developed independently by the initial maintainer group.
-  - Site: [zkglobalcredit.tech](https://zkglobalcredit.tech/)
-  - Repo: [Michae2xl/zk-credit-global-zcash](https://github.com/Michae2xl/zk-credit-global-zcash)
-
 ## Get involved
 
 Help is welcome from anyone. ZAL is a volunteer effort, so there is no gatekeeping. You can contribute by proposing a sprint, running a sprint, reviewing code or writeups, mentoring active sprints, improving the docs, flagging prior art, or just giving honest feedback in a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions). Show up for one PR or stay for ten sprints, either is fine.
