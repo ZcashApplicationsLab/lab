@@ -1,12 +1,12 @@
 name: Sprint Writeup
-description: Final writeup when a sprint ships (or is paused / abandoned)
+description: Final writeup when a sprint ships, pauses, or is abandoned.
 title: "[writeup] "
 labels: ["writeup", "review-needed"]
 body:
   - type: markdown
     attributes:
       value: |
-        Filed when a sprint ends. Use the [narrative template](../blob/main/docs/SPRINT_WRITEUP_TEMPLATE.md) for the long-form version; this issue is the summary and retrospective.
+        Filed when a sprint ends. Honest beats polished: if it did not ship, write that.
 
   - type: input
     id: sprint_id
@@ -30,95 +30,67 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Summary
-      description: "3–5 sentences: what you built, what it proves, who should care"
+      label: What happened?
+      description: A few sentences. What you built, what it proves, or why it stopped.
     validations:
       required: true
-
-  - type: input
-    id: repo
-    attributes:
-      label: Project repo
-      placeholder: "ZcashApplicationsLab/<project>"
-    validations:
-      required: true
-
-  - type: input
-    id: release
-    attributes:
-      label: Release or tag
-      placeholder: "v0.1.0"
 
   - type: input
     id: demo
     attributes:
-      label: Demo link
-      description: Video, hosted URL, or instructions to run locally
+      label: Where can someone see it?
+      description: Repo link, demo URL, video, or "run instructions are in the repo README"
     validations:
       required: true
+
+  - type: textarea
+    id: retro
+    attributes:
+      label: Retro
+      description: What worked, what did not, what you would do differently. Dead ends are valuable, include them.
+    validations:
+      required: true
+
+  - type: textarea
+    id: next_step
+    attributes:
+      label: What now?
+      description: Your plan for the artifact. Keep building, leave as reference, apply for a grant. All fine.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Optional extras. Fill if useful, skip if not.
 
   - type: textarea
     id: design
     attributes:
-      label: Design
-      description: Protocol sketch, circuits, trust assumptions, threat model
+      label: Design notes
+      description: Protocol sketch, threat model, trust assumptions, tradeoffs.
     validations:
-      required: true
-
-  - type: textarea
-    id: tradeoffs
-    attributes:
-      label: Tradeoffs
-      description: Top decisions and what you gave up for each
-    validations:
-      required: true
-
-  - type: textarea
-    id: worked
-    attributes:
-      label: What worked
-    validations:
-      required: true
-
-  - type: textarea
-    id: did_not_work
-    attributes:
-      label: What did not work
-      description: Dead ends, lost time, honest retrospective
-    validations:
-      required: true
+      required: false
 
   - type: textarea
     id: open_questions
     attributes:
       label: Open questions
-
-  - type: textarea
-    id: next_step
-    attributes:
-      label: Next step (your plan)
-      description: "What will you do with this artifact now? The lab does not route projects anywhere; this is your plan."
     validations:
-      required: true
+      required: false
 
   - type: input
     id: reviewers
     attributes:
-      label: Reviewers
-      description: GitHub handles of reviewers who signed off
+      label: Reviewers who signed off
+      placeholder: "@handle1, @handle2"
     validations:
-      required: true
-
-  - type: input
-    id: license
-    attributes:
-      label: License
-      placeholder: "Apache-2.0"
-      value: "Apache-2.0"
-    validations:
-      required: true
+      required: false
 
   - type: textarea
     id: acknowledgements
     attributes:
       label: Acknowledgements
+    validations:
+      required: false

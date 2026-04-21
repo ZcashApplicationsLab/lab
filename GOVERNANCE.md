@@ -22,9 +22,8 @@ The core group that owns triage, merges, and repo-level decisions. Maintainers a
 
 **Criteria**
 
-- Has shipped at least one sprint as lead or reviewer
-- Active in the lab for 3+ months
-- Nominated by an existing maintainer and confirmed by simple majority of maintainers
+- Has shipped at least one sprint as lead or reviewer, or has otherwise been active in the lab for a while
+- Nominated by an existing maintainer (lazy consensus, see Decision-making)
 
 ### Sprint leads
 
@@ -33,8 +32,8 @@ Own a single sprint end-to-end. Get a dedicated repo under `ZcashApplicationsLab
 **Responsibilities**
 
 - Ship the deliverable within the sprint window (2–4 weeks)
-- Post weekly [Sprint Update](.github/ISSUE_TEMPLATE/sprint-update.yml) issues
-- File the final [Sprint Writeup](.github/ISSUE_TEMPLATE/sprint-writeup.yml) when code is done
+- Post a [Sprint Update](.github/ISSUE_TEMPLATE/sprint-update.yml) when something material changes (shipped, blocked, rescoped). No fixed cadence.
+- File the final [Sprint Writeup](.github/ISSUE_TEMPLATE/sprint-writeup.yml) when code is done or the sprint stops
 - Respond to reviewer feedback
 
 ### Reviewers
@@ -53,15 +52,15 @@ Anyone opening a PR, issue, or discussion. No formal role required.
 
 ## Decision-making
 
-**Sprint acceptance.** Simple majority of maintainers using [RUBRIC.md](RUBRIC.md). Ties go to the proposer (accept).
+Defaults to **lazy consensus**: one maintainer approves, 48 hours pass without objection, the change lands. Objections escalate to a short thread, and if that does not resolve it, simple majority of active maintainers decides.
 
-**This repo's docs, rubric, and governance.** PR requires approval from two maintainers. Conflicts escalate to the full maintainer group, decided by simple majority.
+**Sprint acceptance.** Any maintainer can accept a proposal that clears the three questions in [RUBRIC.md](RUBRIC.md). Conflicts or borderline cases escalate to the maintainer group. Ties go to the proposer (accept).
 
-**New maintainers.** Existing maintainer nominates, simple majority confirms.
+**This repo's docs, rubric, and governance.** Lazy consensus as above. Substantive changes (mission, license, decision rules) require explicit approval from at least two maintainers and a 7-day window for objection.
 
-**Removing maintainers.** Inactive for 6+ months triggers a review. Removal by simple majority of the remaining maintainers. Inactive maintainers can return without repeating the nomination process if within 12 months.
+**New maintainers.** Any existing maintainer can nominate. Lazy consensus applies, with a 7-day window.
 
-**Changes to this document.** Same as rubric changes: two-maintainer PR approval.
+**Removing maintainers.** Inactive for 6+ months triggers a review. Simple majority of active maintainers removes. Inactive maintainers can return without renomination within 12 months.
 
 ## Conflict of interest
 

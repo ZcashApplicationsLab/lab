@@ -40,7 +40,7 @@ Every sprint produces:
 - **Demo**: CLI, web, or video walkthrough.
 - **Retrospective note**: next steps, open questions, where the author plans to take it next (if anywhere).
 
-See [SPRINT_WRITEUP_TEMPLATE](docs/SPRINT_WRITEUP_TEMPLATE.md) for the output format.
+The [Sprint Writeup form](.github/ISSUE_TEMPLATE/sprint-writeup.yml) captures all of this.
 
 ## The seven verticals
 
@@ -59,8 +59,8 @@ Projects land in these buckets as they come in. The lab does not maintain a pre-
 ## How it works
 
 1. **Propose.** Open a [Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml) issue. Scope is 2 to 4 weeks, one concrete deliverable. If your idea is still rough, drop it as an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml) instead and a maintainer will help shape it.
-2. **Triage.** The current maintainer group evaluates against the [RUBRIC](RUBRIC.md): relevance, feasibility, team, defensibility, next-step clarity.
-3. **Sprint.** If accepted, the team gets a repo under `ZcashApplicationsLab/<project>` and a named reviewer. Weekly [Sprint Update](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-update.yml) posts.
+2. **Triage.** A maintainer reads it and answers three questions on the thread: does this make sense for Zcash beyond payments, can it ship in 2 to 4 weeks, is there a plan for after. See [RUBRIC.md](RUBRIC.md).
+3. **Sprint.** If accepted, the team gets a repo under `ZcashApplicationsLab/<project>` and a named reviewer. Post a [Sprint Update](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-update.yml) whenever something material changes, no weekly quota.
 4. **Ship.** Code, spec, writeup, demo, retrospective. [Sprint Writeup](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-writeup.yml) closes the loop.
 5. **Keep going (or not).** The author decides what to do next with the artifact: continue as an independent project, apply for grants elsewhere, or leave it as a reference implementation. The lab does not claim credit for downstream outcomes.
 

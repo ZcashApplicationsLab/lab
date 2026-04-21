@@ -1,12 +1,12 @@
 name: Sprint Update
-description: Weekly check-in for an active sprint
+description: Quick check-in during an active sprint. Post when you have something to say, not on a fixed calendar.
 title: "[update] "
 labels: ["update"]
 body:
   - type: markdown
     attributes:
       value: |
-        One update per week per active sprint. Keep it short: three sections, five minutes to write.
+        Post an update when something material changes: you shipped something, you are blocked, or scope shifted. No weekly quota.
 
   - type: input
     id: sprint_id
@@ -16,42 +16,22 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: week
+  - type: textarea
+    id: update
     attributes:
-      label: Week number
-      placeholder: "1 of 3"
+      label: What is the update?
+      description: What changed since last time? Shipped, blocked, rescoped, asking for help. One section is enough.
     validations:
       required: true
 
-  - type: textarea
-    id: shipped
-    attributes:
-      label: Shipped this week
-      description: "Concrete output: merged PRs, demos, figures, drafts"
-    validations:
-      required: true
-
-  - type: textarea
-    id: blockers
-    attributes:
-      label: Blockers
-      description: What is slowing you down and what would unblock it
-    validations:
-      required: false
-
-  - type: textarea
-    id: next
-    attributes:
-      label: Plan for next week
-    validations:
-      required: true
-
-  - type: checkboxes
+  - type: dropdown
     id: status
     attributes:
-      label: Status
+      label: How is it going?
       options:
-        - label: On track
-        - label: Slipping, will adjust scope
-        - label: At risk, need help from reviewers / mentors
+        - On track
+        - Slipping, will adjust scope
+        - Blocked, need help
+        - Rescoping
+    validations:
+      required: true

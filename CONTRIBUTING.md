@@ -42,7 +42,7 @@ Each accepted sprint gets its own repo under `ZcashApplicationsLab/<project>`. C
 Expectations for all sprint repos:
 
 - Apache License 2.0 unless the lead declares otherwise in the proposal
-- Weekly update issue filed in **this** repo
+- Sprint Update issue filed in **this** repo when something material changes (not on a fixed weekly cadence)
 - Final writeup filed in **this** repo before the sprint is marked shipped
 
 ## PR workflow for this repo
