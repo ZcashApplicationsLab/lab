@@ -8,13 +8,23 @@ Thanks for your interest. The lab runs as a continuous, open-source hackathon, a
 
 | I want to…                                     | Do this                                                                                                              |
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Propose a new sprint                           | Open a [Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml)        |
+| Drop a rough idea (no prep needed)             | Open an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml)                             |
+| Propose a scoped sprint (ready to lead it)     | Open a [Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml)        |
 | Join an active sprint                          | Comment on the sprint's issue; leads will respond                                                                    |
 | Review sprints                                 | Open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions) describing your domain and availability |
 | Mentor                                         | Same as above                                                                                                        |
 | Improve this repo's docs, rubric, or templates | Open a PR against `main`                                                                                             |
 | Flag a backlog idea                            | Open an issue tagged `backlog` or PR against [BACKLOG.md](BACKLOG.md)                                                |
 | Report a security issue                        | Email the maintainers listed in `SECURITY.md` (coming soon). Do not open a public issue.                             |
+
+## Two ways to bring an idea
+
+Not sure if your thought is ready for a full proposal? It probably is not, and that is fine.
+
+- **Idea.** One or two sentences, no jargon, no homework. Use it when you have a hunch but have not scoped it, or when you want someone else to run with it. [Open an Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml).
+- **Sprint Proposal.** Scoped, you (or your team) plan to lead it, you can commit 2 to 4 weeks. [Open a Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml).
+
+If you are not sure which fits, pick Idea. A maintainer will help you shape it.
 
 ## Sprint proposals
 

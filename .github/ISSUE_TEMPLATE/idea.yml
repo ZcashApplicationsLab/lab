@@ -1,0 +1,49 @@
+name: Idea
+description: Drop a rough idea. No prep, no jargon, no homework.
+title: "[idea] "
+labels: ["idea", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea for something the lab could build? Drop it here. This is the low-friction path, no rubric, no templates, no reading required.
+
+        A maintainer will read it, reply in the thread, and help shape it into a sprint proposal if it has legs. If you just want to leave the idea and move on, that is also fine.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea, in plain words
+      description: One or two sentences. What could someone build? No jargon needed.
+      placeholder: "Something like a website where you upload a PDF diploma and it gives you a private proof you can share without exposing the PDF."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this matter to you?
+      description: Optional. What made you think of it? Who would use it?
+      placeholder: "I got asked to prove I graduated, but sharing the PDF felt like too much."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: involvement
+    attributes:
+      label: Are you interested in helping build it?
+      options:
+        - Just leaving the idea, someone else can run with it
+        - Maybe, depends on the team
+        - Yes, I want to try leading this
+        - Yes, but I would want to pair with someone more experienced
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Agreement
+      options:
+        - label: I agree to the Code of Conduct
+          required: true

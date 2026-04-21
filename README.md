@@ -58,7 +58,7 @@ Backlog items under each vertical live in [BACKLOG.md](BACKLOG.md).
 
 ## How it works
 
-1. **Propose.** Open a [Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml) issue. Scope is 2 to 4 weeks, one concrete deliverable.
+1. **Propose.** Open a [Sprint Proposal](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml) issue. Scope is 2 to 4 weeks, one concrete deliverable. If your idea is still rough, drop it as an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml) instead and a maintainer will help shape it.
 2. **Triage.** The current maintainer group evaluates against the [RUBRIC](RUBRIC.md): relevance, feasibility, team, defensibility, next-step clarity.
 3. **Sprint.** If accepted, the team gets a repo under `ZcashApplicationsLab/<project>` and a named reviewer. Weekly [Sprint Update](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-update.yml) posts.
 4. **Ship.** Code, spec, writeup, demo, retrospective. [Sprint Writeup](https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-writeup.yml) closes the loop.
