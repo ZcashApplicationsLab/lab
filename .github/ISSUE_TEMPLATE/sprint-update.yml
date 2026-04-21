@@ -9,10 +9,11 @@ body:
         Post an update when something material changes: you shipped something, you are blocked, or scope shifted. No weekly quota.
 
   - type: input
-    id: sprint_id
+    id: proposal
     attributes:
-      label: Sprint ID
-      placeholder: "ZAL-XX"
+      label: Proposal issue
+      description: Link to the accepted Sprint Proposal this update is for.
+      placeholder: "https://github.com/ZcashApplicationsLab/lab/issues/123"
     validations:
       required: true
 

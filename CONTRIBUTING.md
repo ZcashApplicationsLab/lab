@@ -14,7 +14,6 @@ Thanks for your interest. The lab runs as a continuous, open-source hackathon, a
 | Review sprints                                 | Open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions) describing your domain and availability |
 | Mentor                                         | Same as above                                                                                                        |
 | Improve this repo's docs, rubric, or templates | Open a PR against `main`                                                                                             |
-| Surface a rough idea for someone else to run   | Open an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml)                             |
 | Report a security issue                        | Email the maintainers listed in `SECURITY.md` (coming soon). Do not open a public issue.                             |
 
 ## Two ways to bring an idea
@@ -33,7 +32,7 @@ Before opening a proposal:
 1. Skim [open ideas and proposals](https://github.com/ZcashApplicationsLab/lab/issues) so you are not duplicating.
 2. Read the [RUBRIC](RUBRIC.md) to see how proposals are evaluated.
 
-Use the [Sprint Proposal template](.github/ISSUE_TEMPLATE/sprint-proposal.yml). Keep it under 500 words. Concrete beats aspirational.
+Use the [Sprint Proposal template](.github/ISSUE_TEMPLATE/sprint-proposal.yml). Concrete beats aspirational.
 
 ## Working on an active sprint
 
@@ -52,7 +51,7 @@ For changes to this repo (lab-level docs, templates, rubric):
 1. Fork and branch off `main`.
 2. Make your change.
 3. Open a PR against `main` and fill in the PR template.
-4. Two maintainer approvals required for merge.
+4. Merged under [lazy consensus](GOVERNANCE.md#decision-making): one maintainer approval plus 48 hours without objection. Substantive changes (mission, license, decision rules) need two approvals and a 7-day window.
 
 ### Commit style
 

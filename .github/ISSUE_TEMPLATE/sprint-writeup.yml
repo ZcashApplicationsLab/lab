@@ -9,10 +9,11 @@ body:
         Filed when a sprint ends. Honest beats polished: if it did not ship, write that.
 
   - type: input
-    id: sprint_id
+    id: proposal
     attributes:
-      label: Sprint ID
-      placeholder: "ZAL-XX"
+      label: Proposal issue
+      description: Link to the original Sprint Proposal this writeup closes.
+      placeholder: "https://github.com/ZcashApplicationsLab/lab/issues/123"
     validations:
       required: true
 
