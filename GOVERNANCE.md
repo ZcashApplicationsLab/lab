@@ -16,7 +16,7 @@ The core group that owns triage, merges, and repo-level decisions. Maintainers a
 
 - Triage sprint proposals against [RUBRIC.md](RUBRIC.md)
 - Assign reviewers to active sprints
-- Merge PRs to this repo (docs, templates, backlog)
+- Merge PRs to this repo (docs, templates, rubric)
 - Act as the public point of contact for the lab (as a community group, not as a representative of any external organization)
 - Moderate community spaces per [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 

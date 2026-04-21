@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ZcashApplicationsLab/lab/issues/new?template=sprint-proposal.yml"><strong>Propose a sprint →</strong></a>
   ·
-  <a href="BACKLOG.md">Backlog</a>
+  <a href="https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml">Drop an idea</a>
   ·
   <a href="RUBRIC.md">Evaluation rubric</a>
   ·
@@ -54,7 +54,7 @@ See [SPRINT_WRITEUP_TEMPLATE](docs/SPRINT_WRITEUP_TEMPLATE.md) for the output fo
 | 6   | Private Voting & DAO Governance             | Shielded voting, delegation, quadratic funding                                                            |
 | 7   | ZK Audits & Privacy-Preserving Analytics    | Audit trails, compliance reports, and analytics that preserve confidentiality                             |
 
-Backlog items under each vertical live in [BACKLOG.md](BACKLOG.md).
+Projects land in these buckets as they come in. The lab does not maintain a pre-baked wish list: what gets built is whatever the community proposes. Browse [open ideas and proposals](https://github.com/ZcashApplicationsLab/lab/issues) or [drop your own](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml).
 
 ## How it works
 
@@ -78,7 +78,7 @@ Help is welcome from anyone. ZAL is a volunteer effort, so there is no gatekeepi
 
 Rough role buckets:
 
-- **Builders**: pick a backlog item or propose your own sprint.
+- **Builders**: browse [open ideas](https://github.com/ZcashApplicationsLab/lab/issues?q=is%3Aissue+is%3Aopen+label%3Aidea), propose your own sprint, or drop a rough idea.
 - **Reviewers**: domain reviewers in cryptography, compliance, credit, identity, and governance are especially welcome.
 - **Mentors**: time-boxed mentoring slots for active sprints.
 - **Observers**: watch the repo, comment on writeups, no commitment needed.

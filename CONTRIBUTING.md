@@ -14,7 +14,7 @@ Thanks for your interest. The lab runs as a continuous, open-source hackathon, a
 | Review sprints                                 | Open a [Discussion](https://github.com/ZcashApplicationsLab/lab/discussions) describing your domain and availability |
 | Mentor                                         | Same as above                                                                                                        |
 | Improve this repo's docs, rubric, or templates | Open a PR against `main`                                                                                             |
-| Flag a backlog idea                            | Open an issue tagged `backlog` or PR against [BACKLOG.md](BACKLOG.md)                                                |
+| Surface a rough idea for someone else to run   | Open an [Idea](https://github.com/ZcashApplicationsLab/lab/issues/new?template=idea.yml)                             |
 | Report a security issue                        | Email the maintainers listed in `SECURITY.md` (coming soon). Do not open a public issue.                             |
 
 ## Two ways to bring an idea
@@ -30,9 +30,8 @@ If you are not sure which fits, pick Idea. A maintainer will help you shape it.
 
 Before opening a proposal:
 
-1. Read the [RUBRIC](RUBRIC.md) and score yourself honestly.
-2. Check [BACKLOG.md](BACKLOG.md). If your idea is already there, say so in the proposal.
-3. Skim recent proposals (open and closed) so you are not duplicating.
+1. Skim [open ideas and proposals](https://github.com/ZcashApplicationsLab/lab/issues) so you are not duplicating.
+2. Read the [RUBRIC](RUBRIC.md) to see how proposals are evaluated.
 
 Use the [Sprint Proposal template](.github/ISSUE_TEMPLATE/sprint-proposal.yml). Keep it under 500 words. Concrete beats aspirational.
 
@@ -48,7 +47,7 @@ Expectations for all sprint repos:
 
 ## PR workflow for this repo
 
-For changes to this repo (lab-level docs, templates, rubric, backlog):
+For changes to this repo (lab-level docs, templates, rubric):
 
 1. Fork and branch off `main`.
 2. Make your change.

@@ -13,7 +13,6 @@ Closes #
 ## Scope
 
 - [ ] Docs only (README, RUBRIC, GOVERNANCE, CONTRIBUTING, COC)
-- [ ] Backlog addition or edit
 - [ ] Issue / PR template change
 - [ ] Governance change (requires two-maintainer approval)
 - [ ] Other (describe):
